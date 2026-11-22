@@ -1,19 +1,19 @@
 :root {
   color-scheme: light dark;
-  --bg: #f6f5f1;
-  --fg: #1d1d1b;
-  --muted: #6b6a64;
-  --line: #d9d7cf;
-  --accent: #b5472b;
+  --bg: #f7f6f6;
+  --fg: #1c1a1a;
+  --muted: #6b6566;
+  --line: #ddd8d8;
+  --accent: #c41e2e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #161614;
-    --fg: #e8e6df;
-    --muted: #9a988f;
-    --line: #34332f;
-    --accent: #e0714f;
+    --bg: #141213;
+    --fg: #ebe7e7;
+    --muted: #9b9394;
+    --line: #342f30;
+    --accent: #f04b55;
   }
 }
 
@@ -92,21 +92,6 @@ a {
 .lead {
   color: var(--muted);
   font-size: 1.1rem;
-}
-
-.game {
-  border-top: 1px solid var(--line);
-  margin-top: 2.5rem;
-  padding-top: 0.5rem;
-}
-
-.status {
-  display: inline-block;
-  font-size: 0.85rem;
-  color: var(--muted);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 0.1rem 0.7rem;
 }
 
 .meta {
